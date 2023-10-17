@@ -33,12 +33,38 @@ h1{
     color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 a:link, a:visited{
     color: #FFF;
+    padding: 8px 12px;
 }
 
 a:hover{
     color: #f7b600;
     background: #FFF;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    background: green;
 }
