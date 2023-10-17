@@ -12,3 +12,21 @@ body{
     background: #c5c5b2;
     padding: 18px;
 }
+
+#conteudo {
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+
+a {
+    color: #4b566a;
+    text-decoration: none; /*Para tirar o underscore do link*/
+    font-weight: bold; /*Grossura das letras*/
+    padding: 5px;
+}
+
+
+.centralizar{
+    text-align: center;
+}
