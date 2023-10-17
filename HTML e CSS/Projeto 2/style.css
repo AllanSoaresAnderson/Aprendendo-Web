@@ -5,5 +5,11 @@ body{
 
 
 #principal{
+    width: 900px;
+}
+
+#menu {
+    background: #c5c5b2;
     border: 1px solid red;
+    padding: 18px;
 }
