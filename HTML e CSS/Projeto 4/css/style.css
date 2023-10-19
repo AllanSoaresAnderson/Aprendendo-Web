@@ -98,6 +98,17 @@ body.fotos #navegacao a#fotos
     margin: 0 0 20px 195px;
 }
 
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-colunas #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+
 #secundario{
     width: 270px;
     float: left;
@@ -110,6 +121,71 @@ body.fotos #navegacao a#fotos
     margin: 0 0 20px -750px;
 }
 
+
+/*Caixa*/
+.caixa{
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*Menu Laterais*/
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+
+/*Formulários*/
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+    margin: 5px 0;
+}
+
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+
+/*Rodapé*/
 #container-rodape{
     background: #294c71;
     padding: 20px;
