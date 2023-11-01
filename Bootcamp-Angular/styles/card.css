@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card{
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.card-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-left > h1{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card-left > p{
+    color: rgb(70, 70, 70);
+}
+
+.card-left > span{
+    font-weight: 400;
+}
+
+.card .card-right{
+    width: 40%;
+}
+
+
+.card .card-right img{
+    width: 100%;
+}

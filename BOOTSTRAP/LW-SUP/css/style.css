@@ -1,0 +1,144 @@
+:root {
+    --color-primary: #269fe6;
+    --color-primary-hover: #2086c2;
+    --color-primary-dark: #13141f;
+    --color-primary-dark-hover: #212336;
+    --color-primary-light: #d4ecfa;
+    --color-primary-light-hover: #bdd8e7;
+    
+    --color-white: #fff;
+    --color-black: #000;
+    
+    --color-dark-text: #444;
+    --color-info-light: #cce5ff;
+    --color-debug-light: #cce5ff;
+    --color-success-light: #d4edda;
+    --color-alert-light: #fff3cd;
+    --color-warning-light: #fff3cd;
+    --color-error-light: #f8d7da;
+    
+    --color-info-dark: #4d86c4;
+    --color-debug-dark: #4d86c4;
+    --color-success-dark: #4a9c5d;
+    --color-alert-dark: #927f40;
+    --color-warning-dark: #927f40;
+    --color-error-dark: #da525d;
+    
+    --color-gray-0: #f9f9f9;
+    --color-gray-1: #e0e0e0;
+    --color-gray-2: #c7c7c7;
+    --color-gray-3: #aeaeae;
+    --color-gray-4: #959595;
+    --color-gray-5: #7d7d7d;
+    --color-gray-6: #646464;
+    --color-gray-7: #4b4b4b;
+    --color-gray-8: #323232;
+    --color-gray-9: #191919;
+    
+    --font-primary: sans-serif;
+    --font-headings: 'Roboto Slab', serif;
+    
+    --spacing-gutter-medium: 3rem;
+    --spacing-gutter-large: 4rem;
+    }
+
+
+
+#login-screen{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--color-gray-2);
+    box-shadow: 1px 5px 30px rgb(43, 41, 41);
+}
+
+
+body{
+    background: var(--color-gray-1);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav.navbar-opacity{
+    background: var(--color-primary-dark);
+    padding: 15px 15px;
+}
+
+
+#nav-main label{
+    color: var(--color-gray-1);
+}
+
+#nav-main label:hover{
+    color: var(--color-gray-3);
+}
+
+
+
+
+
+
+/*
+#home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+#home h1{
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: white;
+}
+*/
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/*@media (max-width: 575.98px) {
+    #home h1{
+        font-size: 30px;
+    }
+}*/
+
+/* Small devices (landscape phones, 576px and up)*/
+/*
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #home h1{
+        font-size: 40px;
+    }
+}
+*/
+/* Medium devices (tablets, 768px and up)*/
+/*
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #home h1{
+        font-size: 50px;
+    }
+}
+*/
+
+/* Large devices (desktops, 992px and up)*/
+/*
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #home h1{
+        font-size: 60px;
+    }
+}
+*/
+/* Extra large devices (large desktops, 1200px and up)*/
+/*
+@media (min-width: 1200px) {
+    #home h1{
+        font-size: 70px;
+    }
+}
+*/
+
+
+
+
