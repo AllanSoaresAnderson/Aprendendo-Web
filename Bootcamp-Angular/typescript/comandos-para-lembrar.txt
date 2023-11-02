@@ -1,2 +1,12 @@
 npm init -y
 npm install typescript -D #Instalar o typescript apenas para desenvolvimento.
+npx tsc --init #cria as configuracoes do TypeScript
+npx tsc #sem passar caminho, ele olhará para o arquivo de config //---npx tsc src/index.ts 
+
+
+
+
+/*Configuracoes TypeScript*/
+
+rootDir --- diretorio onde tem os arquivos typescript
+outDir --- Onde vai colocar os aquivos JavaScript.
