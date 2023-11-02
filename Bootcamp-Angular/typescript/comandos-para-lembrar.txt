@@ -1,0 +1,2 @@
+npm init -y
+npm install typescript -D #Instalar o typescript apenas para desenvolvimento.
