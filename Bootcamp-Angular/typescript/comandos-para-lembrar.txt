@@ -3,10 +3,12 @@ npm install typescript -D #Instalar o typescript apenas para desenvolvimento.
 npx tsc --init #cria as configuracoes do TypeScript
 npx tsc #sem passar caminho, ele olhará para o arquivo de config //---npx tsc src/index.ts 
 
-
-
-
 /*Configuracoes TypeScript*/
 
 rootDir --- diretorio onde tem os arquivos typescript
 outDir --- Onde vai colocar os aquivos JavaScript.
+
+
+npm install ts-node-dev -D// Entende TypeScript e não precisa ficar gerando build toda vez
+|-----> script : "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts" 
+npm run start:dev

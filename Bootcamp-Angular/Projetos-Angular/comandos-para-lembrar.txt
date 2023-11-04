@@ -1,0 +1,4 @@
+npm install -g @angular/cli@14.1.2
+
+
+ng new <Nome do projeto>
