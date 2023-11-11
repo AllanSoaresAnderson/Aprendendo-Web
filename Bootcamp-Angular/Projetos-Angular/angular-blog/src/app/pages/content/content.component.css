@@ -1,0 +1,29 @@
+.container_content{
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.content_cover img{
+  border: 3px solid grey;
+  width: 500px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.content_description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.content_description p{
+  color: rgb(187, 186, 186);
+  margin: 20px;
+}
